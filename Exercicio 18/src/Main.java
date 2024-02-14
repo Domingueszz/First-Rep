@@ -1,15 +1,18 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.Scanner;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+    public class Main {
+    public static void main(String[] args) {
+
+                double number1,number2,x,result;
+                Scanner in = new Scanner(System.in);
+                System.out.println("Sendo ax + b = 0, digite o coeficiente 'a':");
+                number1 = in.nextDouble();
+
+                System.out.println("Agora digite o coeficiente 'b':");
+                number2 = in.nextDouble();
+                x= -number2/ number1;
+
+                result= x;
+                System.out.println("O valor de 'x' é: " + result);
     }
 }
