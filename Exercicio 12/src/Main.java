@@ -14,7 +14,7 @@ import java.util.Scanner;
         System.out.println("Digite outro número real:");
         number2 = in.nextDouble();
         result1 = number1 * 2;
-        result2 = (result1 + number2) / 2;
+        result2 = (result1 + number2) / 3;
         System.out.println("A média dos números digitados é: " + result2);
     }
 }
